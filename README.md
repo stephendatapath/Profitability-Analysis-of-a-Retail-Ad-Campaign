@@ -13,11 +13,15 @@ Make data-driven recommendations for better ad budgeting.
 Using statistical analysis and regression techniques, I discovered five ad campaigns with Z-scores below –3. These outliers, especially in July and November, showed very high impressions and clicks, yet had severe losses, far beyond what’s normal. They needed urgent attention.
 
 I ran a hypothesis test comparing two groups:
+
 Group A: High-loss campaigns
+
 Group B: Normal campaigns
 
 The results showed a p-value of 0.0165, meaning there's only a 1.65% chance that the revenue difference between both groups was random.
+
 📌 Group A (High-loss): Avg revenue = $22,658.40
+
 📌 Group B (Normal): Avg revenue = $2,425.00
 
 Since the p-value is below 0.05, I rejected the null hypothesis and concluded:
